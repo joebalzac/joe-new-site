@@ -274,6 +274,10 @@ p {
     background-position: center left;
   }
 
+  .links {
+    margin: 1rem .5rem;
+  }
+
   /* .hover-left,
   .hover-right {
     display: none;
