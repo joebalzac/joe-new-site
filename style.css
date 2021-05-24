@@ -212,12 +212,14 @@ p {
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1200px) {
   .split.right,
   .split.left {
     background-size: cover;
   }
+}
 
+@media (max-width: 950px) {
   h2 {
     font-size: 1.5rem;
     top: 30%;
