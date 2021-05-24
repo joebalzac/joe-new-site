@@ -250,7 +250,7 @@ p {
   }
 
   p {
-    text-align: center;
+    text-align: start;
     top: 40%;
     width: 150px;
   }
