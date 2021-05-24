@@ -139,7 +139,7 @@ p {
   left: 0;
   background: url("https://images.unsplash.com/photo-1604964432806-254d07c11f32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxhbGx8fHx8fHx8fHwxNjIwMzcxMzQx&ixlib=rb-1.2.1&q=80&w=1080&utm_source=unsplash_source&utm_medium=referral&utm_campaign=api-credit");
   background-repeat: no-repeat;
-  background-size: 130%;
+  background-size: 120%;
   background-position: center;
   transition: all var(--speed) ease-in-out;
 }
@@ -167,7 +167,7 @@ p {
   right: 0;
   background: url("https://images.unsplash.com/photo-1541336032412-2048a678540d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxfDB8MXxhbGx8fHx8fHx8fA&ixlib=rb-1.2.1&q=80&w=1080&utm_source=unsplash_source&utm_medium=referral&utm_campaign=api-credit");
   background-repeat: no-repeat;
-  background-size: 130%;
+  background-size: 120%;
   background-position: center;
   transition: all var(--speed) ease-in-out;
 }
