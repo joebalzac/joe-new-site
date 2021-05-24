@@ -236,6 +236,12 @@ p {
   }
 }
 
+@media (max-width: 650px) {
+  h2 {
+    font-size: 1.2rem;
+  }
+}
+
 @media (max-width: 475px) {
   .split.right,
   .split.left {
