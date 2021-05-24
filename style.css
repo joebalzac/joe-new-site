@@ -259,6 +259,14 @@ p {
     top: 45%;
   }
 
+  .navbar a {
+    font-size: 30px;
+  }
+
+  .logo-gradient {
+    margin-bottom: 0px;
+  }
+
   /* .hover-left,
   .hover-right {
     display: none;
