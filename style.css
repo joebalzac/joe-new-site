@@ -18,7 +18,7 @@ body {
   --right-btn-hover-color: rgba(28, 122, 28, 1);
   --hover-width: 75%;
   --other-width: 25%;
-  --speed: 1000ms;
+  --speed: 1s;
 }
 
 .container {
@@ -86,7 +86,6 @@ p {
   color: #fff;
   font-size: 1.5rem;
   line-height: 1.5;
-  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -129,16 +128,6 @@ p {
   transform: scale(1.2);
 }
 
-.split.left .btn:hover {
-  background-color: var(--left-btn-hover-color);
-  border-color: var(--left-btn-hover-color);
-}
-
-.split.right .btn:hover {
-  background-color: var(--right-btn-hover-color);
-  border-color: var(--right-btn-hover-color);
-}
-
 .split {
   position: absolute;
   width: 50%;
@@ -150,8 +139,9 @@ p {
   left: 0;
   background: url("https://images.unsplash.com/photo-1604964432806-254d07c11f32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxhbGx8fHx8fHx8fHwxNjIwMzcxMzQx&ixlib=rb-1.2.1&q=80&w=1080&utm_source=unsplash_source&utm_medium=referral&utm_campaign=api-credit");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 130%;
   background-position: center;
+  transition: all var(--speed) ease-in-out;
 }
 
 .split-copy {
@@ -177,8 +167,9 @@ p {
   right: 0;
   background: url("https://images.unsplash.com/photo-1541336032412-2048a678540d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxfDB8MXxhbGx8fHx8fHx8fA&ixlib=rb-1.2.1&q=80&w=1080&utm_source=unsplash_source&utm_medium=referral&utm_campaign=api-credit");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 130%;
   background-position: center;
+  transition: all var(--speed) ease-in-out;
 }
 
 .split.right::before {
@@ -190,19 +181,21 @@ p {
 }
 
 .hover-left .left {
-  width: var(--hover-width);
+  background-size: 150%;
+  transition: all var(--speed) ease-in-out;
 }
 
 .hover-left .right {
-  width: var(--other-width);
+  /* width: var(--other-width); */
 }
 
 .hover-right .right {
-  width: var(--hover-width);
+  background-size: 150%;
+  transition: all var(--speed) ease-in-out;
 }
 
 .hover-right .left {
-  width: var(--other-width);
+  /* width: var(--other-width); */
 }
 
 @keyframes Anim {
