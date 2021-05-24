@@ -236,16 +236,24 @@ p {
 }
 
 @media (max-width: 475px) {
-  .container {
+  .split {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
+  .gradient {
+    animation: none;
+  }
+
   h2 {
     font-size: 1rem;
-    white-space: wrap;
+    white-space: pre-wrap;
+  }
+
+  p {
+    text-align: start;
   }
 
   /* .hover-left,
