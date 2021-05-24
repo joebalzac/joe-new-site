@@ -219,7 +219,7 @@ p {
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 975px) {
   h2 {
     font-size: 1.5rem;
     top: 30%;
