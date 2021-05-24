@@ -270,6 +270,10 @@ p {
     margin-bottom: 0px;
   }
 
+  .split.left {
+    background-position: center left;
+  }
+
   /* .hover-left,
   .hover-right {
     display: none;
