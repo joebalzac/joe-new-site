@@ -245,11 +245,13 @@ p {
 
   .gradient {
     animation: none;
+    background-image: linear-gradient(to bottom left, #00f100, #50e3f5);
   }
 
   h2 {
     font-size: 1rem;
     white-space: pre-wrap;
+    width: 100px;
   }
 
   p {
