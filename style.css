@@ -253,7 +253,8 @@ p {
   h2 {
     font-size: 1rem;
     white-space: pre-wrap;
-    width: 100px;
+    width: 150px;
+    text-align: center;
   }
 
   p {
@@ -275,7 +276,7 @@ p {
   }
 
   .links {
-    margin: 1rem .5rem;
+    margin: 1rem 0.5rem;
   }
 
   /* .hover-left,
