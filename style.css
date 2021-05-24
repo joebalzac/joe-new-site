@@ -256,7 +256,8 @@ p {
 
   p {
     text-align: start;
-    top: 45%;
+    top: 40%;
+    width: 150px;
   }
 
   .navbar a {
