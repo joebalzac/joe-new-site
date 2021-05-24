@@ -242,11 +242,6 @@ p {
     background-size: cover;
   }
 
-  .gradient {
-    animation: none;
-    background-image: linear-gradient(to bottom left, #00f100, #50e3f5);
-  }
-
   h2 {
     font-size: 1rem;
     white-space: pre-wrap;
@@ -255,7 +250,7 @@ p {
   }
 
   p {
-    text-align: start;
+    text-align: center;
     top: 40%;
     width: 150px;
   }
