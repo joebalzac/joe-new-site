@@ -213,6 +213,11 @@ p {
 }
 
 @media (max-width: 950px) {
+  .split.right,
+  .split.left {
+    background-size: cover;
+  }
+
   h2 {
     font-size: 1.5rem;
     top: 30%;
@@ -230,11 +235,9 @@ p {
 }
 
 @media (max-width: 475px) {
-  .split {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .split.right,
+  .split.left {
+    background-size: cover;
   }
 
   .gradient {
