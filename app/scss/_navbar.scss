@@ -1,0 +1,38 @@
+.navbar {
+    width: 100% !important;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    padding: 0rem 2rem;
+  }
+  
+  .navbar a {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+  }
+  
+  .logo-gradient {
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 12px;
+    width: 20px;
+    height: 20px;
+    background-image: linear-gradient(
+      to bottom left,
+      #00f100,
+      #50e3f5,
+      #b67afe,
+      #ff0084
+    );
+    animation: Anim 5s ease infinite;
+  }
+  
+  .fas {
+    color: #fff;
+    font-size: 40px;
+  }
